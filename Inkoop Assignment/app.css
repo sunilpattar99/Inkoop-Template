@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upperdiv {
+  background-color: #293f51;
+  height: 70%;
+  width: 100%;
+}
+.contents {
+  padding: 0 120px;
+}
+
+.upperList {
+  list-style: none;
+  float: right;
+  margin-top: -55px;
+  color: #f4f6f6;
+}
+.upperList li {
+  display: inline;
+  margin: 5px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.upperList li:hover {
+  text-decoration: underline;
+}
+
+.brandName {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #f4f6f6;
+  padding-top: 30px;
+  border-top: 3px solid #597a77;
+  width: 3.2em;
+}
+.rightContentPara {
+  color: #597a77;
+  float: right;
+  margin-top: -90px;
+  font-size: 18px;
+}
+.middleContents {
+  width: 100%;
+  text-align: center;
+  margin: 60px auto;
+  color: #f4f6f6;
+}
+.middleContents p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0 40px;
+}
+.middleHead {
+  color: #597a77;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24;
+  font-weight: 300;
+  width: 100%;
+}
+
+.cardContainers {
+  width: 16rem;
+  height: 20rem;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.cardContainers label {
+  color: #75958e;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.cardContainers img {
+  width: 100%;
+  height: 11rem;
+  object-fit: fill;
+  border-radius: 7px;
+}
+.cardContainers h4 {
+  padding: 15px 0px 5px;
+  color: #75958e;
+  font-size: 18px;
+}
+.cardContainers p {
+  width: 100%;
+  color: #999999;
+  padding: 0px 5px 5px 0px;
+  font-size: 14px;
+}
+
+.bottomDiv {
+  background-color: #293f51;
+  height: 6rem;
+}
+.bottomDiv p {
+  color: #597a77;
+  margin: auto 0;
+  width: 20rem;
+  float: left;
+  padding: 2.25rem 0 2.25rem 0;
+}
+
+.bottomList {
+  list-style: none;
+  float: right;
+  color: #f4f6f6;
+  margin-bottom: 0;
+  padding: 2.25rem 0 2.25rem 0;
+}
+
+.bottomList li {
+  display: inline;
+  margin: 5px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bottomList li:hover {
+  text-decoration: underline;
+}
+
+.cardContainers img:hover {
+  width: 110%;
+  height: 12rem;
+}
+
+@media screen and (max-width: 992px) {
+  .contents {
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .brandName {
+    font-size: 26px;
+  }
+  .middleHead {
+    font-size: 22px;
+  }
+  .middleContents {
+    margin: 30px auto;
+  }
+  .middleContents p {
+    font-size: 16px;
+    padding: 0 40px;
+  }
+  .upperList {
+    /*     display: none; */
+  }
+  .upperList li {
+    font-size: 10px;
+  }
+  .rightContentPara {
+    font-size: 14px;
+  }
+  .bottomDiv p {
+    width: 10rem;
+    float: left;
+    padding: 0.7rem 0 0.3rem 0;
+    font-size: 12px;
+  }
+  .bottomList li {
+    font-size: 10px;
+  }
+  .bottomList {
+    float: left;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  .navHide {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .brandName {
+    font-size: 24px;
+  }
+  .middleHead {
+    font-size: 20px;
+  }
+  .middleContents p {
+    font-size: 14px;
+    padding: 0 40px;
+  }
+}
